@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.colors as mcolors
+import matplotlib
+print(matplotlib.__version__)
 
 # Streamlit 앱 제목 및 설명 설정
 st.title("엑셀 데이터 시각화")

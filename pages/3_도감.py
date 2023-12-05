@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import os  # Import the os module
+import matplotlib
+print(matplotlib.__version__)
 
 st.title("진로 도감")
 
